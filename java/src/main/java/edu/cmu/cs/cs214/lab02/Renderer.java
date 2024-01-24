@@ -7,8 +7,8 @@ public class Renderer {
     // is not needed to draw
     private double area;
     
-    Renderer(Rectangle rectangle) {
-        this.area = rectangle.getArea();
+    Renderer(Shape shape) {
+        this.area = shape.getArea();
     }
 
     void draw() {
